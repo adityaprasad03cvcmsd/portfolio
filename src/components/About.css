@@ -1,0 +1,13 @@
+.about_img{
+    width: 80%;
+    margin-left: -10%;
+    margin-top: -15%;
+}
+.aboutMe{
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: start;
+    font-family: Montserrat,
+    sans-serif;
+    font-size: 60px;
+}
