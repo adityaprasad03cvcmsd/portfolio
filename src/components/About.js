@@ -10,7 +10,7 @@ export const About=()=>{
 
     return (
         <Div>
-            <div className="container">
+            <div className="container" id="About">
                 <div className="row">
                     <div className="col__2">
                         <img className="about_img" src={mypic}/>

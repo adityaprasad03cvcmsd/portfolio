@@ -2,7 +2,6 @@ import React from "react";
 import "./About.css";
 import "../App.css";
 import { Div } from "../elements/Div";
-import mypic from "../images/mypic.png"
 
 
 export const Skill=()=>{
@@ -10,7 +9,7 @@ export const Skill=()=>{
 
     return (
         <Div>
-            <div className="container">
+            <div className="container" id="Skills">
                 <div className="row">
                     <div className="col__2">                        
                         <h1 className="skill">Skills</h1>
