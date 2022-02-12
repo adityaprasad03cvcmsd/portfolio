@@ -1,7 +1,7 @@
 .about_img{
     width: 80%;
-    margin-left: -10%;
-    margin-top: -15%;
+    border-radius: 50px;
+    margin-top: -25%;
 }
 .aboutMe{
     margin-bottom: 10px;
@@ -10,4 +10,25 @@
     font-family: Montserrat,
     sans-serif;
     font-size: 60px;
+}
+.centering{
+    margin-top: 12%;
+}
+.about_btn {    
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid #3D6F8B;
+    background-color: #3D6F8B;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .4s all ease;
+    height: 60px;
+    width: 180px;
+    margin: 0px 10px;
+}
+.aboutButton {
+    padding: 20px 0px;
+    align-content: space-around;
 }
