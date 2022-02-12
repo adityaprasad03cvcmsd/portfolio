@@ -1,7 +1,10 @@
+#About{
+    margin-top: 5%;
+}
 .about_img{
-    width: 80%;
-    border-radius: 50px;
-    margin-top: -25%;
+    /* width: 80%; */
+    /* border-radius: 50px; */
+    margin-top: -9%;
 }
 .aboutMe{
     margin-bottom: 10px;

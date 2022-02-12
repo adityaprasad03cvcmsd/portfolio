@@ -3,7 +3,7 @@
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 120%;
 }
 li .nav__items{
     font-size: 18px;
@@ -33,4 +33,5 @@ li .nav__items{
     sans-serif;
      font-size: 16px;
      font-weight: 500;
+     z-index: 20;
 }
