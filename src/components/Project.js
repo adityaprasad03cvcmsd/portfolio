@@ -63,10 +63,10 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
-                     <h4 className="project__text">Getting tickets to the big show</h4>
+                     <h5 className="project__text">Food Recipe</h5>
+                     <h4 className="project__text">Food recipes of dishes of several cuisines.</h4>
                      <a href="https://github.com/adityaprasad03cvcmsd/food-recipe-app.git" className="project__btn" target={"_blank"}>View Details</a>
-                     <a href="#" className="project__btn" target={"_blank"}>Deployed</a>                     
+                     <a href="https://foodrecipemasaiadityaprasad.netlify.app/" className="project__btn" target={"_blank"}>Deployed</a>                     
                      </div>                     
                  </div>
              </div>
