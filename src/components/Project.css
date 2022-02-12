@@ -1,5 +1,6 @@
 .project{
     background-color: #191919;
+    padding-left: 5%;
 }
 img.project__img {
     border-radius: 10px;
@@ -96,4 +97,12 @@ h5.project__text {
 h4.project__text {
     font-size: 18px;
 }
+}
+
+.projectText{
+     font-weight: 700;
+     text-align: start;
+     font-family: Montserrat,
+     sans-serif;
+     font-size: 60px;
 }

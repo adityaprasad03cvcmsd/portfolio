@@ -1,21 +1,19 @@
-import React from "react";
 import "./Project.css";
-import Project1 from './img/portfolio-1.jpg';
-import Project2 from './img/portfolio-2.jpg';
-import Project3 from './img/portfolio-3.jpg';
-import Project4 from './img/portfolio-4.jpg';
+import "../App.css"
+import Project1 from '../images/faasos.png';
+import Project2 from '../images/healthmug.png';
+import Project3 from '../images/recipe.png';
+import Project4 from '../images/news.png';
+import Project5 from '../images/weather.png';
 
 function Project() {
   return (
     <div className="project component__space" id="Portfolio">
       <div className="heading">
-        <h1 className="heading">My Latest Project</h1>
+        <h1 className="heading projectText">PROJECTS</h1>
         <p className="heading p__color">
-          There are many variations of passages of Lorem Ipsum available,
-        </p>
-        <p className="heading p__color">
-          but the majority have suffered alteration.
-        </p>
+          These contain both colaborative and solo projects as well.
+        </p>        
       </div>
        <div className="container">
            <div className="row">
@@ -29,9 +27,10 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
-                     <h4 className="project__text">Getting tickets to the big show</h4>
-                     <a href="#" className="project__btn">View Details</a>
+                     <h5 className="project__text">Faasos Clone</h5>
+                     <h4 className="project__text">Faasos is an Indian "food on demand" service app</h4>
+                     <a href="https://github.com/gopimudumal99/faasos-masai-clone" target="_blank" className="project__btn">View Details</a>
+                     <a href="https://faasos-masai-clone.herokuapp.com/" target="_blank" className="project__btn">Deployed</a>
                      </div>
                  </div>
              </div>
@@ -46,9 +45,10 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
-                     <h4 className="project__text">Getting tickets to the big show</h4>
-                     <a href="#" className="project__btn">View Details</a>
+                     <h5 className="project__text">HealthMug Clone</h5>
+                     <h4 className="project__text">An E-commerce website for medicens and medical equipments.</h4>
+                     <a href="https://github.com/Akshay-Kumar2000/HealthMug-Clone" target="_blank" className="project__btn">View Details</a>
+                     <a href="#" className="project__btn">Deployed</a>
                      </div>
                  </div>
              </div>
@@ -65,8 +65,9 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Development</h5>
                      <h4 className="project__text">Getting tickets to the big show</h4>
-                     <a href="#" className="project__btn">View Details</a>
-                     </div>
+                     <a href="https://github.com/adityaprasad03cvcmsd/food-recipe-app.git" className="project__btn" target={"_blank"}>View Details</a>
+                     <a href="#" className="project__btn" target={"_blank"}>Deployed</a>                     
+                     </div>                     
                  </div>
              </div>
 
@@ -80,9 +81,10 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
-                     <h4 className="project__text">Getting tickets to the big show</h4>
-                     <a href="#" className="project__btn">View Details</a>
+                     <h5 className="project__text">News App</h5>
+                     <h4 className="project__text">Geting the latest news and of any desired topic</h4>
+                     <a href="https://github.com/adityaprasad03cvcmsd/news-app" className="project__btn" target={"_blank"}>View Details</a> 
+                     <a href="#" className="project__btn" target={"_blank"}>Deployed</a>         
                      </div>
                  </div>
              </div>
@@ -92,39 +94,18 @@ function Project() {
                  <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
-                             <img src={Project3} alt="" className="project__img" />
+                             <img src={Project5} alt="" className="project__img" />
                          </div>
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
-                     <h4 className="project__text">Getting tickets to the big show</h4>
-                     <a href="#" className="project__btn">View Details</a>
+                     <h5 className="project__text">Weather App</h5>
+                     <h4 className="project__text">weather forecast of any place or region</h4>
+                     <a href="https://github.com/adityaprasad03cvcmsd/Weather-forceasting-app" className="project__btn" target={"_blank"}>View Details</a>  
+                     <a href="#" className="project__btn" target={"_blank"}>Deployed</a>        
                      </div>
                  </div>
-             </div>
-
-
-             <div className="col__3">
-                 <div className="project__box pointer relative">
-                     <div className="project__box__img pointer relative">
-                         <div className="project__img__box">
-                             <img src={Project4} alt="" className="project__img" />
-                         </div>
-                         <div className="mask__effect"></div>
-                     </div>
-                     <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
-                     <h4 className="project__text">Getting tickets to the big show</h4>
-                     <a href="#" className="project__btn">View Details</a>
-                     </div>
-                 </div>
-             </div>
-             
-             <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
-             <button className="view__more pointer btn">View more</button>
-             </div>
-
+             </div>             
            </div>
        </div>
     </div>

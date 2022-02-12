@@ -18,8 +18,8 @@
     font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
-    border: 2px solid #3D6F8B;
-    background-color: #3D6F8B;
+    border: 2px solid #F0434B;
+    background-color: #F0434B;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -31,4 +31,32 @@
 .aboutButton {
     padding: 20px 0px;
     align-content: space-around;
+}
+#skill_icon{
+    flex-wrap: wrap;
+}
+#skill_icon>div{
+    width: 25%;
+}
+#skill_icon img{
+    width: 80%;
+    height: 80%;
+}
+.skill{
+   margin-bottom: 10px;
+   font-weight: 700;
+   text-align: start;
+   font-family: Montserrat,
+   sans-serif;
+   font-size: 60px;
+   margin-bottom: 10%;
+}
+#skill_icon img:hover {
+    -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5);
+  transition: .4s; 
+}
+.skill_detail{
+    margin-top: 10%;
 }
