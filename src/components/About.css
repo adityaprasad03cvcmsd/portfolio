@@ -21,8 +21,8 @@
     font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
-    border: 2px solid #F0434B;
-    background-color: #F0434B;
+    border: 2px solid #fff;
+    background-color: transparent;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -30,6 +30,12 @@
     height: 60px;
     width: 180px;
     margin: 0px 10px;
+}
+.about_btn:hover{   
+   background-color: #f9004d;   
+   transition: .4s;
+   opacity: .9;   
+   transform: scale(1.1);
 }
 .aboutButton {
     padding: 20px 0px;
@@ -55,11 +61,31 @@
    margin-bottom: 10%;
 }
 #skill_icon img:hover {
-    -ms-transform: scale(1.5);
+  -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5); 
   transform: scale(1.5);
   transition: .4s; 
 }
 .skill_detail{
     margin-top: 10%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .p__color {
+        font-size: 15px !important;
+    }
+    
+}
+
+@media only screen and (max-width: 425px) {
+    button.about_btm {
+        text-transform: capitalize;
+        width: 165px;
+        height: 50px;
+        font-size: 13px;
+        transition: .4s ease;
+    }
+    .about_img {
+        width: 80%;
+    }
 }

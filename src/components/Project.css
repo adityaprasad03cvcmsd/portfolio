@@ -51,14 +51,17 @@ img.project__img::after{
 }
 h5.project__text {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     padding-bottom: 20px;
+    text-align: justify;    
 }
 h4.project__text {
     font-size: 22px;
     font-family: Poppins,sans-serif;
     font-weight: 700;
     padding-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
 }
 a.project__btn {
     padding: 12px 35px;

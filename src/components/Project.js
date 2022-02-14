@@ -20,6 +20,9 @@ function Project() {
              
              <div className="col__3">
                  <div className="project__box pointer relative">
+                     <h4 className="project__text">Faasos Clone</h4>
+                     <h5 className="project__text">Faasos is an Indian "food on demand" service app</h5>
+                     <h5 className="project__text">Tech stack: mongoDB, ExpressJS, HTML, CSS, JavaScript</h5>
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
                              <img src={Project1} alt="" className="project__img" />
@@ -27,8 +30,8 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Faasos Clone</h5>
-                     <h4 className="project__text">Faasos is an Indian "food on demand" service app</h4>
+                     {/* <h5 className="project__text">Faasos Clone</h5>
+                     <h4 className="project__text">Faasos is an Indian "food on demand" service app</h4> */}
                      <a href="https://github.com/gopimudumal99/faasos-masai-clone" target="_blank" className="project__btn">View Details</a>
                      <a href="https://faasos-masai-clone.herokuapp.com/" target="_blank" className="project__btn">Deployed</a>
                      </div>
@@ -38,17 +41,18 @@ function Project() {
 
              <div className="col__3">
                  <div className="project__box pointer relative">
+                     <h4 className="project__text">HealthMug Clone</h4>
+                     <h5 className="project__text">An E-commerce website for medicens and medical equipments</h5>
+                     <h5 className="project__text">Tech stack: HTML, CSS, JavaScript</h5>
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
                              <img src={Project2} alt="" className="project__img" />
                          </div>
                          <div className="mask__effect"></div>
                      </div>
-                     <div className="project__meta absolute">
-                     <h5 className="project__text">HealthMug Clone</h5>
-                     <h4 className="project__text">An E-commerce website for medicens and medical equipments.</h4>
+                     <div className="project__meta absolute">                     
                      <a href="https://github.com/Akshay-Kumar2000/HealthMug-Clone" target="_blank" className="project__btn">View Details</a>
-                     <a href="#" className="project__btn">Deployed</a>
+                     <a href="https://healthmug.vercel.app/" target="_blank" className="project__btn">Deployed</a>
                      </div>
                  </div>
              </div>
@@ -56,15 +60,16 @@ function Project() {
 
              <div className="col__3">
                  <div className="project__box pointer relative">
+                     <h4 className="project__text">Food Recipe</h4>
+                     <h5 className="project__text">Food recipes of dishes of several cuisines.</h5>
+                     <h5 className="project__text">Tech stack: HTML, CSS, JavaScript</h5>
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
                              <img src={Project3} alt="" className="project__img" />
                          </div>
                          <div className="mask__effect"></div>
                      </div>
-                     <div className="project__meta absolute">
-                     <h5 className="project__text">Food Recipe</h5>
-                     <h4 className="project__text">Food recipes of dishes of several cuisines.</h4>
+                     <div className="project__meta absolute">                    
                      <a href="https://github.com/adityaprasad03cvcmsd/food-recipe-app.git" className="project__btn" target={"_blank"}>View Details</a>
                      <a href="https://foodrecipemasaiadityaprasad.netlify.app/" className="project__btn" target={"_blank"}>Deployed</a>                     
                      </div>                     
@@ -74,17 +79,18 @@ function Project() {
 
              <div className="col__3">
                  <div className="project__box pointer relative">
+                     <h4 className="project__text">News App</h4>
+                     <h5 className="project__text">Geting the latest news and of any desired topic</h5>
+                     <h5 className="project__text">Tech stack: HTML, CSS, JavaScript</h5>
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
                              <img src={Project4} alt="" className="project__img" />
                          </div>
                          <div className="mask__effect"></div>
                      </div>
-                     <div className="project__meta absolute">
-                     <h5 className="project__text">News App</h5>
-                     <h4 className="project__text">Geting the latest news and of any desired topic</h4>
+                     <div className="project__meta absolute">                     
                      <a href="https://github.com/adityaprasad03cvcmsd/news-app" className="project__btn" target={"_blank"}>View Details</a> 
-                     <a href="#" className="project__btn" target={"_blank"}>Deployed</a>         
+                     <a href="https://priceless-fermi-f19d8e.netlify.app/" className="project__btn" target={"_blank"}>Deployed</a>         
                      </div>
                  </div>
              </div>
@@ -92,17 +98,18 @@ function Project() {
 
              <div className="col__3">
                  <div className="project__box pointer relative">
+                     <h4 className="project__text">Weather App</h4>
+                     <h5 className="project__text">Weather forecast of any place or region</h5>
+                     <h5 className="project__text">Tech stack: HTML, CSS, JavaScript</h5>
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
                              <img src={Project5} alt="" className="project__img" />
                          </div>
                          <div className="mask__effect"></div>
                      </div>
-                     <div className="project__meta absolute">
-                     <h5 className="project__text">Weather App</h5>
-                     <h4 className="project__text">weather forecast of any place or region</h4>
+                     <div className="project__meta absolute">                     
                      <a href="https://github.com/adityaprasad03cvcmsd/Weather-forceasting-app" className="project__btn" target={"_blank"}>View Details</a>  
-                     <a href="#" className="project__btn" target={"_blank"}>Deployed</a>        
+                     <a href="https://weathermasai.netlify.app/" className="project__btn" target={"_blank"}>Deployed</a>        
                      </div>
                  </div>
              </div>             

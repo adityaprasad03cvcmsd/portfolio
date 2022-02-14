@@ -25,17 +25,17 @@ export const About=()=>{
                         </SlideInLeft>
                         <SlideInUp durationMs={1000}>
                             <p className="p__color about_detail centering">
-                                Hi, my name is Aditya Prasad. My passion is my work that I put in day in and day out.My love for coding can be seen in my projects.
+                                Hi, my name is Aditya Prasad. My passion is the work that I put in day in and day out. My love for coding can be seen in my projects.
                             </p>
                         </SlideInUp>
                         <SlideInUp durationMs={1000}>
                             <p className="p__color about_detail">
-                                I am a FULL-STACK web developer with specalization in MERN stack. I have worked on fronend and backend in my projects.
+                                I am a FULL-STACK web developer with a specialization in the MERN stack. I have worked on the frontend and backend in my projects.
                             </p>
                         </SlideInUp>
                         <SlideInUp durationMs={1000}>
                         <p className="p__color about_detail">
-                            I have 1 & 1/2 years of work experience in two aditional domains that is Facilty Management and Hotel Management.
+                            I have 1 & 1/2 years of work experience in two additional domains that is Facility Management and Hotel Management.
                         </p>
                         </SlideInUp>
                         <div className="aboutButton d__flex align__items__center">
