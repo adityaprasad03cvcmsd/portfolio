@@ -38,7 +38,7 @@ img.project__img::after{
      transform: scale(1.1);
  }
  .project__meta.absolute {
-    top: 0%;
+    top: 10%;
     left: 0%;
     display: flex;
     height: 100%;
@@ -68,6 +68,7 @@ a.project__btn {
     border: 2px solid #ffffff87;
     border-radius: 5px;
     transition: .4s ease;
+    background-color: #ffffff87;
 }
 a.project__btn:hover{
     background-color: #f9004d;
